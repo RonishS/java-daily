@@ -11,7 +11,7 @@ public class JdbcMetadataDemo {
 
         String url = "jdbc:mysql://localhost:3306/lab2db";
         String user = "root";
-        String password = "";
+        String password = System.getenv("DB_PASS");
 
        
         try (Connection con = DriverManager.getConnection(url, user, password)) {
