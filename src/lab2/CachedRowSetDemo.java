@@ -5,9 +5,9 @@ import java.sql.*;
 public class CachedRowSetDemo {
     public static void main(String[] args) {
         
-        String url = "jdbc:mysql://localhost:3306/lab2db";
-        String user = "root";
-        String password = "";
+String url = "jdbc:mysql://localhost:3306/YOUR_DATABASE_NAME";
+String user = "YOUR_USERNAME";
+String password = "YOUR_PASSWORD";;
         
         Connection con = null;
         
