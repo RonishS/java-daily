@@ -1,0 +1,10 @@
+# Java files 
+*.class 
+bin/ 
+.settings/ 
+.project 
+.classpath 
+temp_repo/ 
+*.pdf 
+*.docx 
+*.txt 
